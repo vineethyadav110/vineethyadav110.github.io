@@ -32,5 +32,5 @@ I specialize in architecting data pipelines, optimizing relational databases, an
 ---
 
 ### 📫 Let's Connect
-* **LinkedIn:** [Connect with me on LinkedIn](YOUR_LINKEDIN_URL_HERE)
-* **Email:** Reach out at YOUR_EMAIL@DOMAIN.com
+* **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/vin-adam-156426370?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWng8y7YNQ46FSHvTRDtl7g%3D%3D)
+* **Email:** Reach out at vineethyadav110@gmail.com
