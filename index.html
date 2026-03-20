@@ -1,64 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineeth Yadav | Data Engineer</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
-        header { text-align: center; padding: 40px 0; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        h1 { margin: 0; color: #2c3e50; font-size: 2.5em; }
-        h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .subtitle { font-size: 1.2em; color: #7f8c8d; margin-top: 10px; }
-        .project-card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; border-left: 5px solid #3498db; }
-        .project-title { font-size: 1.4em; font-weight: bold; color: #2c3e50; text-decoration: none; }
-        .project-title:hover { color: #3498db; }
-        .tech-stack { font-size: 0.9em; color: #e67e22; font-weight: bold; margin: 10px 0; }
-        .contact { text-align: center; margin-top: 40px; padding: 20px; background: #2c3e50; color: #fff; border-radius: 8px; }
-        a.button { display: inline-block; padding: 10px 20px; background: #3498db; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 15px; }
-        a.button:hover { background: #2980b9; }
-    </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vineeth Yadav | Data Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+			/* Deep IDE Backgrounds and Text */
+			body, body.is-preload { background-color: #0d1117 !important; color: #c9d1d9 !important; }
+			h1, h2, h3, h4, h5, h6, strong, b { color: #ffffff !important; }
+			p, span { color: #8b949e !important; }
+			a { color: #58a6ff !important; transition: color 0.2s ease-in-out; }
+			a:hover { color: #79c0ff !important; }
+			
+			/* Wrapper Sections (Alternating Dark Slate) */
+			.wrapper.style1 { background-color: #0d1117 !important; color: #c9d1d9 !important; }
+			.wrapper.style2 { background-color: #161b22 !important; border-top: 1px solid #30363d !important; border-bottom: 1px solid #30363d !important; color: #c9d1d9 !important; }
+			.wrapper.style3 { background-color: #0d1117 !important; color: #c9d1d9 !important; }
+			.wrapper.style4 { background-color: #010409 !important; color: #8b949e !important; border-top: 1px solid #30363d !important;}
+			
+			/* Navigation Bar */
+			#nav { background-color: #161b22 !important; box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important; color: #c9d1d9 !important;}
+			#nav a { color: #c9d1d9 !important; font-weight: 600 !important; }
+			#nav a:hover { color: #58a6ff !important; }
+			
+			/* Accent Buttons */
+			input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+				background-color: #1f6feb !important; color: #ffffff !important; border-radius: 6px !important; box-shadow: none !important; font-weight: 600 !important;
+			}
+			input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+				background-color: #388bfd !important; box-shadow: 0 0 10px rgba(56, 139, 253, 0.4) !important;
+			}
+			.button.alt { background-color: transparent !important; box-shadow: inset 0 0 0 2px #30363d !important; color: #58a6ff !important; }
+			.button.alt:hover { background-color: #30363d !important; color: #ffffff !important;}
 
-    <header>
-        <h1>Vineeth Yadav</h1>
-        <div class="subtitle">Associate Data Engineer | AI & Analytics Architecture</div>
-    </header>
+			/* Project Cards & Boxes */
+			.box { background: #161b22 !important; border: 1px solid #30363d !important; border-radius: 8px !important; transition: transform 0.2s ease; }
+			.box:hover { border-color: #58a6ff !important; transform: translateY(-5px); }
+			.box.style1 { background: #0d1117 !important; }
+			
+			/* Form Inputs */
+			input[type="text"], input[type="password"], input[type="email"], select, textarea {
+				background: #0d1117 !important; border-color: #30363d !important; color: #c9d1d9 !important; border-radius: 6px !important;
+			}
+			input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+				border-color: #58a6ff !important; box-shadow: 0 0 0 1px #58a6ff !important;
+			}
+			
+			/* Featured Icons */
+			.icon.featured { background-color: #1f6feb !important; color: #ffffff !important; box-shadow: 0 0 15px rgba(31, 111, 235, 0.4) !important;}
+			ul.social li a { color: #8b949e !important; }
+			ul.social li a:hover { color: #58a6ff !important; }
+		</style>
+	</head>
+	<body class="is-preload">
 
-    <section>
-        <h2>About Me</h2>
-        <p>I specialize in architecting data pipelines, optimizing relational databases, and building Retrieval-Augmented Generation (RAG) AI applications. I am passionate about bridging the gap between raw backend storage and intuitive, user-facing insights.</p>
-    </section>
+		<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Skills</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-    <section>
-        <h2>Featured Engineering Projects</h2>
+		<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" style="border-radius: 50%; border: 4px solid #30363d;"/></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Vineeth Yadav</strong>.</h1>
+							</header>
+							<p>I am an <strong>Associate Data Engineer</strong> specializing in AI pipelines, relational database architecture, and translating complex data into actionable enterprise solutions.</p>
+							<a href="#portfolio" class="button large scrolly">View My Projects</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-        <div class="project-card">
-            <a href="https://github.com/vineethyadav110/Digital_Pharmacy_agent" class="project-title" target="_blank">💊 AI-Powered Digital Pharmacy Assistant (RAG Application)</a>
-            <div class="tech-stack">Python | LangChain | ChromaDB | Google Gemini API | Streamlit</div>
-            <p>Architected an empathetic RAG agent that translates casual user symptom descriptions into accurate over-the-counter product recommendations. Eliminated AI hallucinations by grounding responses in a local vector database and deployed a real-time streaming web UI.</p>
-        </div>
+		<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Core Competencies</h2>
+						<p>Architecting secure, scalable backend solutions.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-database"></span>
+								<h3>Data Engineering</h3>
+								<p>PostgreSQL, Relational Database Design, Query Optimization, ETL Pipelines.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-robot"></span>
+								<h3>AI Architecture</h3>
+								<p>Python, LangChain, Generative AI APIs, ChromaDB (Vector Search).</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-chart-bar"></span>
+								<h3>Analytics & BI</h3>
+								<p>Microsoft Power BI, DAX, Streamlit, Pandas, Advanced SQL (CTEs, Window Functions).</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See my recent work</a>
+					</footer>
+				</div>
+			</article>
 
-        <div class="project-card">
-            <a href="https://github.com/vineethyadav110/health-ecommerce-cart-analysis" class="project-title" target="_blank">🛒 Digital Pharmacy Checkout & Claims Analysis</a>
-            <div class="tech-stack">PostgreSQL | Python | SQLAlchemy | Pandas | Streamlit</div>
-            <p>Engineered an end-to-end data pipeline to investigate e-commerce cart abandonment. Mapped 10,000 synthetic web sessions to simulated EDI 837/835 insurance claims, uncovering a 95% drop-off rate directly tied to "Prior Authorization Required" claim denials.</p>
-        </div>
+		<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Featured Projects</h2>
+						<p>Real-world applications bridging backend storage and frontend utility.</p>
+					</header>
+					<div class="row">
+						<div class="col-6 col-12-medium">
+							<article class="box style2">
+								<a href="https://github.com/vineethyadav110/Digital_Pharmacy_agent" target="_blank" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="https://github.com/vineethyadav110/Digital_Pharmacy_agent" target="_blank">AI Digital Pharmacy Assistant</a></h3>
+								<p>Architected an empathetic RAG agent that translates user symptoms into accurate product recommendations, eliminating AI hallucinations via ChromaDB.</p>
+							</article>
+						</div>
+						<div class="col-6 col-12-medium">
+							<article class="box style2">
+								<a href="https://github.com/vineethyadav110/health-ecommerce-cart-analysis" target="_blank" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="https://github.com/vineethyadav110/health-ecommerce-cart-analysis" target="_blank">E-commerce Claims Analysis</a></h3>
+								<p>Engineered an end-to-end data pipeline mapping synthetic web sessions to simulated EDI 837/835 insurance claims to uncover a 95% cart abandonment rate.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
-        <div class="project-card">
-            <div class="project-title">📊 Healthcare Inventory Analytics & BI Dashboard</div>
-            <div class="tech-stack">PostgreSQL | Microsoft Power BI | Advanced SQL</div>
-            <p>Engineered complex PostgreSQL queries using multi-table JOINs and Window Functions to extract high-volume metrics. Deployed interactive Power BI dashboards to track patient trends, highlight inventory gaps, and empower executive decision-making.</p>
-        </div>
-    </section>
+		<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Let's Connect.</h2>
+						<p>I am actively seeking roles in Data Engineering, Analytics, and AI Architecture.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="YOUR_LINKEDIN_URL_HERE" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/vineethyadav110" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+								<li><a href="mailto:YOUR_EMAIL@DOMAIN.COM" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Vineeth Yadav. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-    <div class="contact">
-        <h2>Let's Connect</h2>
-        <p>I am actively seeking roles in Data Engineering, Analytics, and AI Architecture.</p>
-        <a href="https://github.com/vineethyadav110" class="button" target="_blank">View My GitHub</a>
-        <a href="YOUR_LINKEDIN_URL_HERE" class="button" target="_blank">Connect on LinkedIn</a> 
-    </div>
+		<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</body>
+	</body>
 </html>
