@@ -24,11 +24,6 @@ I specialize in architecting data pipelines, optimizing relational databases, an
 #### 2. [Digital Pharmacy Checkout & Claims Analysis](https://github.com/vineethyadav110/health-ecommerce-cart-analysis)
 * **Tech:** PostgreSQL, Python, SQLAlchemy, Streamlit, Pandas
 * **Description:** Engineered an end-to-end data pipeline to investigate cart abandonment. Mapped 10,000 synthetic web sessions to simulated EDI 837/835 insurance claims, uncovering a 95% drop-off rate tied to "Prior Authorization" denials.
-
-#### 3. Healthcare Inventory Analytics & BI Dashboard
-* **Tech:** PostgreSQL, Microsoft Power BI, Advanced SQL
-* **Description:** Engineered complex PostgreSQL queries using multi-table JOINs and Window Functions to extract high-volume metrics, deploying interactive Power BI dashboards to track patient trends and highlight inventory gaps.
-
 ---
 
 ### 📫 Let's Connect
